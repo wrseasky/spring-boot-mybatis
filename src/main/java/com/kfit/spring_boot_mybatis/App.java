@@ -3,15 +3,11 @@ package com.kfit.spring_boot_mybatis;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/**
- * Spring Boot启动类.
- * @author Angel -- 守护天使
- * @version v.0.1
- * @date 2017年1月1日
- */
+@EnableTransactionManagement
 @SpringBootApplication
-@MapperScan("com.kfit.*")//扫描：该包下相应的class,主要是MyBatis的持久化类.
+@MapperScan("com.kfit.*")
 public class App {
 	public static void main(String[] args) {
 		SpringApplication.run(App.class, args);
