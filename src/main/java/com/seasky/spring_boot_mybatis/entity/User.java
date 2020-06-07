@@ -1,4 +1,4 @@
-package com.kfit.spring_boot_mybatis.entity;
+package com.seasky.spring_boot_mybatis.entity;
 
 public class User {
     private Long id;

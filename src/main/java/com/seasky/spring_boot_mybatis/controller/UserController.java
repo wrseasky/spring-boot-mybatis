@@ -1,14 +1,9 @@
-package com.kfit.spring_boot_mybatis;
+package com.seasky.spring_boot_mybatis.controller;
 
-import java.util.List;
-
-import com.kfit.spring_boot_mybatis.entity.User;
-import com.kfit.spring_boot_mybatis.service.UserService;
+import com.seasky.spring_boot_mybatis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.github.pagehelper.PageHelper;
 
 @RestController
 public class UserController {

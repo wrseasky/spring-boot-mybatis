@@ -1,7 +1,7 @@
-package com.kfit.spring_boot_mybatis.service;
+package com.seasky.spring_boot_mybatis.service;
 
-import com.kfit.spring_boot_mybatis.UserMappper;
-import com.kfit.spring_boot_mybatis.entity.User;
+import com.seasky.spring_boot_mybatis.dao.UserMappper;
+import com.seasky.spring_boot_mybatis.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
